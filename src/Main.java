@@ -1,3 +1,4 @@
+import java.time.LocalDate;
 import java.time.Year;
 
 public class Main {
@@ -165,7 +166,8 @@ public class Main {
         1975
         2054
          */
-        int currentYear = 2022;
+//        int currentYear = 2022;
+        int currentYear = LocalDate.now().getYear();
         int startYearOfPeriod = 200;
         int endYearOfPeriod = 100;
         int firstYearSeenComet = 100;
