@@ -205,7 +205,7 @@ public class Main {
             System.out.println(number + " * " + multiplier + " = " + result);
         }
 
-        ///////////////////////////////////////// Extra exercise 4.1 /////////////////////////////////////////
+        ///////////////////////////////////////// Extra exercise 5 /////////////////////////////////////////
         /*
         Это задание очень любят давать на собеседованиях в разных вариациях, потому мы предлагаем его вам, чтобы вы
         оценили свои силы. Необходимо пройти циклом по числам от 1 до 30 включительно и, если число делится на 3 без
@@ -218,7 +218,7 @@ public class Main {
         int startNumberOfRange = 1;
         int range = 30;
 
-        System.out.println("\nExtra exercise 4.1");
+        System.out.println("\nExtra exercise 5");
         for (int j = startNumberOfRange; j < (startNumberOfRange + range); j++) {
             if (j % divider1 == 0 && j % divider2 != 0) {
                 System.out.println(j + ": ping");
@@ -230,7 +230,7 @@ public class Main {
                 System.out.println(j + ":");
             }
         }
-        ///////////////////////////////////////// Extra exercise 4.2 /////////////////////////////////////////
+        ///////////////////////////////////////// Extra exercise 6 /////////////////////////////////////////
         /*
         Вывести первые 10 чисел последовательности Фибоначчи. Последовательность строится по следующему правилу:
         – Каждое следующее число равняется сумме двух предыдущих.
@@ -243,7 +243,7 @@ public class Main {
         int FiboNumber1 = 0;
         int FiboNumber2 = 1;
         int numberCount = 10;
-        System.out.println("\nExtra exercise 4.2");
+        System.out.println("\nExtra exercise 6");
         System.out.print(FiboNumber1 + " " + FiboNumber2 + " ");
         for (int j = 0; j < numberCount - 2; j++) {
             int tmpInt = FiboNumber1 + FiboNumber2;
